@@ -1,0 +1,34 @@
+El árbol de decisión construye modelos de clasificación o regresión en forma de estructura de árbol.
+Desglosa un conjunto de datos en subconjuntos más pequeños con el aumento de la profundidad del árbol. 
+El resultado final es un árbol con nodos de decisión y nodos de hoja. Un nodo de decisión tiene dos o 
+más ramas. El nodo hoja representa una clasificación o decisión. El nodo de decisión superior en un 
+árbol que corresponde al mejor predictor se llama nodo raíz. Los árboles de decisión pueden manejar
+tanto datos categóricos como numéricos.
+
+Terminología de los árboles de desición
+
+1. Nodo raíz: representa una población o muestra completa y esto se divide aún más en dos o más conjuntos
+homogéneos.
+2. División: es un proceso de división de un nodo en dos o más subnodos.
+3. Nodo de decisión: cuando un subnodo se divide en subnodos adicionales, se denomina nodo de decisión.
+4. Nodo Hoja / Terminal: los nodos sin hijos (sin división adicional) se denominan nodo Hoja o Terminal.
+5. Poda: cuando reducimos el tamaño de los árboles de decisión al eliminar los nodos (lo opuesto a la 
+división), el proceso se denomina poda.
+6. Rama / Subárbol: Una subsección del árbol de decisión se llama rama o subárbol.
+7. Nodo primario y secundario : un nodo, que se divide en subnodos, se denomina nodo primario de subnodos,
+ya que, como subnodos, es el secundario del nodo principal.
+
+existen diferentes metodologías para cronstruir un árbol de desición. 
+
+ID3, metodología que utiliza la entropia y la ganancia de información para determinar los puntos de corte y 
+sus tamaños buscando la homogeneidad en los elementos seleccionados en una misma rama.
+
+CART, esta metodología utiliza el índice Gini, su variable objetivo es categórica de "Éxito" o "Error", Realiza 
+sólo divisiones binarias. Cuanto mayor sea el índice  Gini, mayor será la homogeneidad.
+
+CHAID, Funciona con la variable objetivo categórica "Éxito" o "Error". Puede realizar dos o más splits. Cuanto 
+mayor sea el valor de Chi-cuadrado, mayor será la importancia estadística de las diferencias entre subnodo y nodo 
+principal. Chi-cuadrado de cada nodo se calcula utilizando la fórmula, Chi cuadrado = ((real - esperado) ² / esperado) ¹ / 2
+
+
+
