@@ -1,0 +1,28 @@
+Métodos de Ensemble
+
+El objetivo de los métodos de ensemble es combinar las predicciones de varios estimadores de base construidos con un algoritmo de aprendizaje dado para mejorar la 
+generalización / robustez sobre un único estimador.
+Dos familias de métodos de conjunto generalmente se distinguen:
+
+* En los métodos de promedio , el principio de conducción es construir varios estimadores de forma independiente y luego promediar sus predicciones. En promedio, 
+el estimador combinado es generalmente mejor que cualquiera del estimador de base única porque su varianza es reducida.
+Ejemplos: métodos de embolsado , random forest
+
+* Por el contrario, en los métodos de impulso , los estimadores de base se construyen secuencialmente y uno trata de reducir el sesgo del estimador combinado.
+La motivación es combinar varios modelos débiles para producir un conjunto poderoso.
+Ejemplos: AdaBoost , Gradient Tree Boosting.
+
+
+Meta-estimador de embolsado
+En los algoritmos de conjunto, los métodos de embolsado forman una clase de algoritmos que construye varias instancias de un estimador de caja negra en subconjuntos 
+aleatorios del conjunto de entrenamiento original y luego agrega sus predicciones individuales para formar una predicción final. Estos métodos se utilizan como una
+forma de reducir la varianza de un estimador base (por ejemplo, un árbol de decisión), introduciendo la aleatorización en su procedimiento de construcción y luego 
+haciendo un conjunto de ella. En muchos casos, los métodos de embolsamiento constituyen una forma muy simple de mejorar con respecto a un único modelo, sin que sea 
+necesario adaptar el algoritmo básico subyacente. Como proporcionan una manera de reducir el sobreajuste, los métodos de embolsado funcionan mejor con modelos fuertes
+y complejos (por ejemplo, árboles de decisión completamente desarrollados), en contraste con los métodos de refuerzo que generalmente funcionan mejor con modelos débiles 
+(por ejemplo, árboles de decisión poco profundos).
+
+Bosques de árboles aleatorios
+El módulo sklearn.ensemble incluye dos algoritmos de promedio basados ??en árboles de decisión aleatorizados: el algoritmo RandomForest y el método Extra-Trees. Ambos 
+algoritmos son técnicas de perturbación y combinación diseñadas específicamente para árboles. Esto significa que se crea un conjunto diverso de clasificadores 
+introduciendo aleatoriedad en la construcción del clasificador. La predicción del conjunto se da como la predicción promedio de los clasificadores individuales.
