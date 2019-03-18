@@ -1,0 +1,15 @@
+E12 - Gradient Boosting Review
+
+
+Gradient Boosting es una técnica de aprendizaje automático para problemas de regresión y clasificación, que produce un modelo 
+de predicción en forma de un conjunto de modelos de predicción débiles, generalmente árboles de decisión. Construye el modelo 
+de manera escalonada como lo hacen otros métodos de impulso, y los generaliza al permitir la optimización de una función de 
+pérdida arbitraria diferenciable.
+
+
+El clasificador XGBoost comenzó inicialmente como un proyecto de investigación por Tianqi Chen como parte del grupo Distributed 
+(Deep) Machine Learning Community (DMLC). Inicialmente, comenzó como una aplicación de terminal que podía configurarse utilizando 
+un archivo de configuración libsvm. Después de ganar el Desafío de machine learning de Higgs, se hizo muy conocido en los 
+círculos de la competencia ML. Poco después, se construyeron los paquetes Python y R y ahora tiene paquetes para muchos otros 
+idiomas como Julia, Scala, Java, etc. Esto llevó a la biblioteca a más desarrolladores y se hizo popular entre la comunidad de 
+Kaggle, donde se ha utilizado para un gran número de desarrolladores y gran número de competiciones.
