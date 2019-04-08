@@ -1,0 +1,27 @@
+E16-NLPOverview - Skype Traslator
+
+Este lenguaje, también es conocido como computación lingüística y le permite a la computadora interpretar el lenguaje humano
+basado en el razonamiento, aprendizaje y entendimiento. El NLP, fue transformado por investigadores para poder construir un
+modelo exitoso en la traducción humano-computadora con lenguajes empíricos de datos. El procesamiento del lenguaje natural, 
+desarrolla técnicas computacionales con el propósito del aprendizaje, entendimiento, y producción de contenido humano.
+
+Para entender el lenguaje humano se han desarrollado tres técnicas:
+
+- Machine Traslation: Es la forma como la computadora traduce lenguajes humanos y logra descomponerlos en una estructura semántica 
+entendida por una computadora. Según Hirschberg, esta tecnología ha avanzado gracias al Deep Learning, que consiste en entrenar
+un modelo con diferentes representaciones para optimizar un objeto final en este caso, las traducciones, además, permite el uso
+de tecnologías actuales como Skype Traslator.
+
+Speech Recognition: Es el proceso de convertir una señal del dialogo en una secuencia de palabras, esto por medio de un algoritmo
+implementado por un programa de computadora. La tecnología de speech recognition, ha hecho posible al computador responder
+por comandos de voz y entender el lenguaje de la computadora como lo hacen los asistentes virtuales de los teléfonos y los parlantes. 
+Existen tres formas del speech recognition: palabras insoladas, palabras conectadas, y dialogo espontaneo.
+
+Speech Synthesis: Es la forma en que el computador pasa de texto a dialogo, y el software debe comprender la entonación,
+pronunciamiento y duración del dialogo. Un ejemplo de esto, es la computadora utilizada por Stephen Hawking.
+
+La evolución de la inteligencia artificial y su entrenamiento, es posible con la gran cantidad de información disponible
+gracias a la web 2.0. Estos servicios web, permiten extraer información usando la minería de datos para entrenar a sus sistemas
+en el reconocimiento del lenguaje del humano, por ejemplo: identificando los textos, imágenes , emociones, personas, audios, videos
+y movimientos. Estos sistemas entrenados, se pueden utilizar en dispositivos para ayudar a personas con ceguera a descubrir el mundo,
+los objetos y personas alrededor de ellos.
